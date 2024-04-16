@@ -8,7 +8,7 @@ function answer(){
     else{
         var li = document.createElement("li")
         li.innerHTML = input.value
-        ahmad.appendChild(li)
+        container.appendChild(li)
     }
     input.value = ""
 }
