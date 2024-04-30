@@ -54,13 +54,14 @@ button{
     border-radius: 12px;
 }
 
-ul li{
+ol li{
     font-size: 17px;
     cursor: pointer;
     padding: 12px 8px 12px 50px;
     user-select: none;
+    font-style: italic;
 }
-ul li.check{
+ol li.check{
     color: blue;
     text-decoration: line-through;
 }
